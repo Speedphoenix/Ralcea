@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<I18>
+	<text>
+		<default>Valider</default>
+		
+	<en>Submit</en><fr>Valider</fr></text>
+	<text>
+		<default>-Choisissez-</default>
+		
+	<en>-Select-</en><fr>Instructions ...</fr></text>
+	<text>
+		<default>Télécharger l'it</default>
+		
+	<en>Download the it</en><fr>Télécharger l'it</fr></text>
+	<text>
+		<default>Ancien site</default>
+		
+	<en>Old website</en><fr>Ancien site</fr></text>
+	<text>
+		<default>Menu principal</default>
+		
+	<en>Main menu</en><fr>Menu principal</fr></text>
+	<text>
+		<default>Nouvelle langue</default>
+		
+		<en>New language</en>
+	<fr>Nouvelle langue</fr></text>
+	<text>
+		<default>Choisissez vers quelle langue traduire</default>
+		
+	<fr>Choisissez vers quelle langue traduire</fr></text>
+	<text>
+		<default>Choisissez depuis quelle langue traduire</default>
+		
+	<fr>Choisissez depuis quelle langue traduire</fr></text>
+	<text>
+		<default>La sauvegarde des traductions a échoué</default>
+		
+	<fr>La sauvegarde des traductions a échoué</fr></text>
+	<text>
+		<default>Traduction</default>
+		
+	<fr>Traduction</fr></text>
+	<text>
+		<default>La sauvegarde des traductions a réussi</default>
+		
+	<fr>La sauvegarde des traductions a réussi</fr></text>
+	<text>
+		<default>Cette it n'a pas été trouvée</default>
+		
+	<fr>Cette it n'a pas été trouvée</fr></text>
+	<text>
+		<default>Montrer les variantes symboliques</default>
+		
+	<fr>Montrer les variantes symboliques</fr></text>
+	<text>
+		<default>Dernier changement</default>
+		
+	<fr>Dernier changement</fr></text>
+	<text>
+		<default>Archiver les IT Séléctionnées</default>
+		
+	<fr>Archiver les IT Séléctionnées</fr></text>
+	<text>
+		<default>Supprimer les IT Séléctionnées</default>
+		
+	<fr>Supprimer les IT Séléctionnées</fr></text>
+	<text>
+		<default>Connection</default>
+		
+	<fr>Connection</fr></text>
+	<text>
+		<default>Que voulez-vous faire?</default>
+		
+	<fr>Que voulez-vous faire?</fr></text>
+	<text>
+		<default>Identifiant ou mot de Passe incorrect</default>
+		
+	<fr>Identifiant ou mot de Passe incorrect</fr></text>
+	<text>
+		<default>Identifiant</default>
+		
+	<fr>Identifiant</fr></text>
+	<text>
+		<default>Mot de Passe</default>
+		
+	<fr>Mot de Passe</fr></text>
+</I18>

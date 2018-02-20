@@ -1,0 +1,429 @@
+/*
+not used anymore
+.light a{
+	padding: 7px !important;
+}
+.downloadable{
+	display: block;
+	padding: 5px;
+	
+	float: middle;
+	text-align: center;
+	padding-bottom: 2px;
+}*/
+
+
+/* a major part of the side navigation menu has been taken from w3schools
+www.w3schools.com/howto/howto_js_sidenav.asp */
+.sidenav {
+	height: 100%;
+	width: 0; /* will be changed to 250 with js */
+	position: fixed;
+	z-index: 2;
+	left: 0;
+	background-color: #bbb;
+	overflow-x: hidden;
+	top: 0;
+	padding-top: 50px;
+	transition: 0.4s;
+	background-color: #50be87;
+}
+
+	.sidenav > div {
+		margin: 1px;
+	}
+
+	.sidenav form {
+		display: block;
+		text-align: center;
+		padding: 8px;
+		transition: 0.25s;
+	}	
+
+	.sidenav a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 8px;
+		text-decoration: none;
+		transition: 0.25s
+	}
+
+		.sidenav a:hover {
+			 background-color: #60d510;
+		}
+
+
+	.sidenav .downloadable {
+		text-align: center;
+		color: #101010;
+		border: 2px solid #909090;
+		background-color: #efefef;
+	}
+
+		.sidenav .downloadable:hover {
+			border-color: #505050;
+		}
+
+		.sidenav .downloadable a:hover {	
+			background-color: #d0d0d0;
+		}
+
+
+	.sidenav .closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+
+	.sidenav .ITSelect {
+		width: 100%;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+
+.openbtn {
+	color: #444;
+	text-decoration: none;
+	position: fixed;
+	top: 13px;
+	left: 15px;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+	.openbtn:hover {
+		background-color: #dfdfdf;
+	}
+
+
+.loggedBox {
+	position: absolute;
+	top: 2px;
+	right: 3px;
+	border: 1px solid #021370; 
+	border-radius: 3px;
+	background-color: #d8d8d8;
+
+	font-size: large;
+	text-decoration: none;
+	color: #011570;
+}
+
+	.loggedBox:hover {
+		background-color: #e5e5e5;
+	}
+
+	.loggedBox a {
+		text-decoration: none;
+		color: #022082;
+	}
+
+	.loggedBox p {
+		margin: 0;
+	}
+
+
+.userPos {
+	position: sticky;
+	position: -webkit-sticky;/* safari */
+	width: 300px;
+	margin-left: 10px;
+	padding: 1px;
+	top: 59px;
+
+/*	position: absolute;
+	left: 250px;
+	top: 40px;*/
+}
+
+	.userAction {
+		border: 2px solid #909090;
+		background-color: #fff;
+		border-radius: 4px;
+	}
+
+		.userAction:hover {
+			border-color: #505050;
+		}
+
+		#ITupload {
+			display: none;
+			/*float: left;*/
+		}
+
+
+body {
+	font-family: helvetica;
+	height: 100%;
+	background-color: #ffffff;
+}
+
+
+.ITMenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+	.ITMenu ul li {
+		float: left;
+	}
+
+		.ITMenu ul li a {
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 8px;
+			text-decoration: none;
+		}
+
+			.ITMenu ul li a:hover {
+				 background-color: #dddddd;
+			}
+
+	.ITMenu .collapser {
+		padding: 5px;
+		font-weight: normal;
+	}
+
+	.ITMenu .nameContainer {
+		border: 0px;
+	}
+
+
+/* listSelect (on index.php) */
+.right {
+	float: right !important;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+div.batchContainer {
+	columns: 20 190px;
+}
+
+div.nameContainer {
+	border: 1px solid #303030;
+	border-radius: 5px;
+	margin: 1px;
+}
+
+	div.nameContainer h3 {
+		text-align: center;
+		margin: 1px;
+		color: #383838;
+	}
+
+
+div.instructContainer {
+	display: none;
+	border: 2px solid #303030;
+	border-radius: 8px;
+	margin: 1px
+}
+
+	div.instructContainer h3 {
+		text-align: center;
+		margin: 2px;
+		color: #383838;
+	}
+
+
+.collapser{
+	text-decoration: none;
+	color: #383838;
+}
+
+div.instructions {
+	display: block;
+	background-color: #ffb000;
+	columns: 4 350px;
+	text-align: center;
+}
+
+div.instruct {
+	display: inline-block;
+	padding: 7px;
+	text-align: center;
+/*	width: 100%;
+	border: 1px solid #404040;
+	border-radius: 4px;*/
+}
+
+	div.instruct a {
+		text-decoration: none;
+		color: #101010;
+		text-align: center;
+	}
+
+		div.instruct a:link, a:visited {
+			
+		}
+
+		div.instruct a:hover, a:active {
+			color: #404040;
+			background-color: #c0c0c0;
+		}
+
+
+h2.light{
+	margin-top: 2px;
+	margin-bottom: 7px;
+}
+
+
+/* used in translate.php */
+.doubleHalf {
+	box-sizing: border-box;
+/*	position: absolute;
+	bottom: 10px;
+	top: 10px;*/
+}
+
+	.doubleHalf:after {
+		content: "";
+		display: table;
+		clear: both;
+		columns: 2;
+	}
+
+
+.Half {
+	float: left;
+	width: 50%;
+/*	padding: 10px;
+	height: 100px;*/
+}
+
+.language {
+	position: absolute;
+	right: 7px;
+	top: 30px;
+}
+
+.logo {
+	position: absolute;
+	top: 20px;
+	right: 10%;
+	max-width: 200px;
+}
+
+.instructDisp {
+	position: absolute;
+	height: 100%;
+	width: 99%;
+}
+
+.uploadMsg {
+	text-align: center;
+	margin: 0;
+}
+
+
+#news {
+	padding-left: 5%;
+	min-height: 100px;
+}
+
+#IEShaming {
+	display: none;
+	position: absolute;
+	left: 2px;
+	top: 100px;
+	width: 250px;
+	z-index: 1;
+}
+
+#footer {
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	clear: left;
+	text-align: center;
+	background-color: #ffffff;
+/*	position: fixed;*/
+}
+
+#head {
+	overflow: auto;
+	position: static;
+	top: 0px;
+}
+
+#title {
+	display: block;
+	text-align: center;
+}
+
+#tagDisp {
+	position: absolute;
+	left: 2px;
+	top: 4px;
+}
+
+#main {
+	background-color: #ffffff;
+	padding: 2px;
+}
+
+
+ /*
+  *	From here on the css for star ratings.
+  *	inspired by codepen.io/jamesbarnett/pen/vlpkh
+  */
+
+
+/* what contains the feedback */
+.feedback {
+	float: right;
+	margin-right: 200px;
+	margin-top: 0;
+}
+
+	.feedback p {
+		margin: 0;
+	}
+
+.hiddenRadio {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	opacity: 0;
+}
+
+fieldset.starContain, .starContain label {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.starContain {
+	border: none; /* could change this if necessary*/
+}
+
+	.starContain input {
+		display: none;
+	}
+
+	.starContain label {
+		content: "&#9733;"; /* 9733 for full star, 9734 for empty star */
+		font-size: 16px;
+		/*margin: 5px;*/
+		color: #ddd;
+		float: right;
+	}
+
+
+		.starContain input:checked ~ label,
+		.starContain input:hover ~ label {
+			color: #ffd700;
+		}
+
+	
+
