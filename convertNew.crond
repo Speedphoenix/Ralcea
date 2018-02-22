@@ -4,12 +4,12 @@
 #a complete go-through of the directory without any convertion
 #takes about 2:20
 #chek for flag and convert every 5 minutes
-*/5 * * * * /var/www/html/convertNew.sh /var/www/html/it_raw/flag.convert /var/www/html/it_pdf/ /var/www/html/it_raw/*
+*/5 * * * * root /var/www/html/convertNew.sh /var/www/html/it_raw/flag.convert /var/www/html/it_pdf/ /var/www/html/it_raw/*
 
 #convert new every hour
-* */1 * * * /var/www/html/convertNew.sh /var/www/html/it_pdf/ /var/www/html/it_raw/*
+* */1 * * * root /var/www/html/convertNew.sh /var/www/html/it_pdf/ /var/www/html/it_raw/*
 
 #convert the archives every day only (should normally never need this)
-* * */1 * * /var/www/html/convertNew.sh /var/www/html/it_pdf/archives/ /var/www/html/it_raw/archives/*
+* * */1 * * root /var/www/html/convertNew.sh /var/www/html/it_pdf/archives/ /var/www/html/it_raw/archives/*
 
 
