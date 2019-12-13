@@ -1,0 +1,44 @@
+- faire une recherche
+
+AT THE END:
+bien clear les corbeilles/archives de test...
+bien rédiger le README.txt
+
+_________________________________________________________
+SHORTER TERM:
+
+____________________________________________________________________
+VERIFIER:
+
+'Visualiser par plateformes/clients:' - verifier
+
+position sticky: demander à droite et à gauche si ça va...
+problème avec le select pour sticky...
+
+valider dans translate.php
+
+- feedback sur l'IT
+	- voire comment/sous quel format enregistrer ça
+
+cacher les submit
+______________________________________________________________________
+SHORT TERM
+
+________________________________________________________________________________
+
+ADD:
+- meilleure detection de la langue secondaire et des langues possibles
+- interface traduction - jolifier
+	- include header_generic.php
+	- desactiver la boite (pas juste cacher)
+- cacher/montrer les tags: en js au lieu de recharger la page
+- sticky positioning for the batchname..
+- 'check all' javascript for canChange user
+- cookies pour enregistrer quel client...
+- beautify the deleteIT function...
+- check des variables comme logged, dans des fonctions où j'ai oublié de les déclarer global
+- plusieurs fichiers download
+- verifier la nomenclature quand on upload
+
+- traduire
+
